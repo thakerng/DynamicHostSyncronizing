@@ -14,9 +14,11 @@ Installation
 1. Copy odind folder to static IP server in any path and make odind folder in /var/log ( For recording Log file ) 
 2. You can config any parameters such as port or ip address in odin.py  
 3. Append followed comment into /etc/host to make zone of dynamic hostname
-    # dynamic.start:
+   :: 
+      # dynamic.start:
 
-    # :dynamic.end
+      # :dynamic.end 
+    ::
 4. Open odind folder and run server with this command 
       run python odind.py start 
   (This process will run in daemon mode)
