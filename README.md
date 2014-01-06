@@ -11,7 +11,7 @@ Requirement
 Installation
 =======================
 
-1. Copy odind folder to static IP server in any path and make odind folder in /var/log ( For recording Log file ) 
+1. Copy odind folder to static IP server in any path and make odind folder in /var/log ( path of Log file ) 
 2. You can config any parameters such as port or ip address in odin.py  
 3. Append followed comment into /etc/host to make zone of dynamic hostname
 ``` 
@@ -21,10 +21,10 @@ Installation
 ```
 4. Open odind folder and run server with this command 
       ```run python odind.py start ```
-  (This process will run in daemon mode)
+  (the process runs in daemon mode)
 5. Copy thor folder into home-server 
 6. You can config any parameters such as port or hostname (default is homeserver) in thor.py 
 7. Open thor folder and run client with this command 
       ```python thord.py start ```
-   (This process will also run in daemon mode)
+   (the process also runs in daemon mode)
 8. Test by ping to <hostname> in Static IP Server
