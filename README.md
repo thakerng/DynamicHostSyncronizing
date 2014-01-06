@@ -20,11 +20,11 @@ Installation
       # :dynamic.end 
 ```
 4. Open odind folder and run server with this command 
-      run python odind.py start 
+      ```run python odind.py start ```
   (This process will run in daemon mode)
 5. Copy thor folder into home-server 
 6. You can config any parameters such as port or hostname (default is homeserver) in thor.py 
 7. Open thor folder and run client with this command 
-      python thord.py start 
+      ```python thord.py start ```
    (This process will also run in daemon mode)
 8. Test by ping to <hostname> in Static IP Server
