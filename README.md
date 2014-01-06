@@ -27,4 +27,4 @@ Installation
 7. Open thor folder and run client with this command 
       ```python thord.py start ```
    (the process also runs in daemon mode)
-8. Test by ping to <hostname> in Static IP Server
+8. Test by ping to %<hostname%> in Static IP Server
